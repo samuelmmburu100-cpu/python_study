@@ -78,10 +78,3 @@ print("14. Changed JavaScript to React:", my_ds[5][2])
 print("\n15. Final my_ds:")
 print(my_ds)
 
-# BONUS CHALLENGE
-print("\n--- BONUS ---")
-print(f"Currency: {my_ds[3][2]['currency']}")
-print(f"Amount: {my_ds[3][2]['amount']}")
-print(f"Student: {my_ds[3][2]['student']['name']}")
-print(f"Subject: {my_ds[3][2]['subjects'][-1]}") # Django
-print(f"Technology: {my_ds[5][2][2]}") # React
