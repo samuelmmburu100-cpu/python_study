@@ -13,7 +13,7 @@ else:
     print("Largest is:", num3)
 
 # 2. Temperature check
-temp = int(input("\nEnter temperature: "))
+temp = int(input("Enter temperature: "))
 
 if temp > 30:
     print("The temperature is too high")
@@ -23,7 +23,7 @@ else:
     print("Cold temperature")
 
 # 3. Check x between 10 and 20 inclusive and y > 100
-x = int(input("\nEnter x: "))
+x = int(input("Enter x: "))
 y = int(input("Enter y: "))
 
 if 10 <= x <= 20 and y > 100:
@@ -32,7 +32,7 @@ else:
     print("Conditions not met")
 
 # 4. Check password is "secret123"
-password = input("\nEnter password: ")
+password = input("Enter password: ")
 
 if password == "secret123":
     print("Access granted")
@@ -53,7 +53,7 @@ else:
     print("One-day period")
 
 # 2. String length check
-str1 = input("\nEnter first string: ")
+str1 = input("Enter first string: ")
 str2 = input("Enter second string: ")
 
 if len(str1) > len(str2):
@@ -83,11 +83,3 @@ elif type(value) == int:
 else:
     print("Unknown Type")
 
-# --- BETTER way for Q4 (recommended) ---
-# value = 50
-# if isinstance(value, str):
-#     print("String Detected")
-# elif isinstance(value, int):
-#     print("Integer Detected")
-# else:
-#     print("Unknown Type")
