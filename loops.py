@@ -19,6 +19,7 @@ for fruit in fruits:
     print("i am a student")
     
 numbers=[10,20,30,40,50]
+
 for i in numbers:
     print(i)
     
@@ -37,3 +38,10 @@ numbers=list(range(1,101))
 
 for i in numbers:
     print('TechCamp') 
+
+    # display even number between 10 and 15
+
+'1st'='list'('range'(10,51))
+
+'for' 'num' 'in' 'list:'
+'if' 'num'%2==0
